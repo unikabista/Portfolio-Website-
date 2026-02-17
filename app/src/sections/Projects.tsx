@@ -26,7 +26,7 @@ const projects = [
     subtitle: 'Automated ETL System',
     tags: ['Python', 'SQL', 'C++', 'Pandas'],
     description: 'Automated ETL pipelines for processing 500+ monthly logs with 30% improved accuracy through rigorous validation.',
-    image: '/experience-ulm.jpg',
+    image: '/cs-data-pipeline.jpg',
     github: '#',
     demo: '#',
     featured: false

@@ -80,7 +80,5 @@
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  /* Removed text-wrap: balance for better browser compatibility */
 }

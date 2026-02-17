@@ -59,6 +59,7 @@ export default function Hero() {
               href="https://github.com" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="GitHub Profile"
               className="w-11 h-11 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300"
             >
               <Github className="w-5 h-5" />
@@ -67,12 +68,14 @@ export default function Hero() {
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="LinkedIn Profile"
               className="w-11 h-11 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300"
             >
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
               href="#"
+              aria-label="Download Resume"
               className="w-11 h-11 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300"
             >
               <Download className="w-5 h-5" />
