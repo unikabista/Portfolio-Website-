@@ -6,7 +6,7 @@ const contactLinks = [
     label: 'Email',
     value: 'unika.bista0@gmail.com',
     href: 'mailto:unika.bista0@gmail.com',
-    color: 'from-violet-500 to-purple-500'
+    color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: Github,
@@ -35,12 +35,12 @@ export default function Contact() {
   return (
     <section id="contact" className="section relative">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-violet-950/10 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-950/10 to-transparent pointer-events-none" />
       
       <div className="container-custom relative">
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="text-violet-400 text-sm font-medium mb-4 block">Let's Connect</span>
+          <span className="text-blue-400 text-sm font-medium mb-4 block">Let's Connect</span>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Get in Touch</h2>
           <p className="text-gray-400 max-w-xl mx-auto">
             I'm open to internships, research collaborations, and freelance opportunities.
@@ -62,7 +62,7 @@ export default function Contact() {
               </div>
               <p className="text-sm text-gray-500 mb-1">{link.label}</p>
               <div className="flex items-center gap-1">
-                <p className="font-medium text-sm group-hover:text-violet-400 transition-colors">
+                <p className="font-medium text-sm group-hover:text-blue-400 transition-colors">
                   {link.value}
                 </p>
                 <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />

@@ -27,13 +27,13 @@ export default function About() {
   return (
     <section id="about" className="section relative">
       {/* Subtle gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-violet-950/5 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-950/5 to-transparent pointer-events-none" />
       
       <div className="container-custom relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left - Content */}
           <div>
-            <span className="text-violet-400 text-sm font-medium mb-4 block">About Me</span>
+            <span className="text-blue-400 text-sm font-medium mb-4 block">About Me</span>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Building intelligent systems that make a difference
             </h2>
@@ -75,8 +75,8 @@ export default function About() {
                 key={i} 
                 className="glass-card p-6 hover:bg-white/[0.05] transition-colors group"
               >
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-500/20 to-fuchsia-500/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <item.icon className="w-6 h-6 text-violet-400" />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <item.icon className="w-6 h-6 text-blue-400" />
                 </div>
                 <h3 className="font-semibold mb-1">{item.title}</h3>
                 <p className="text-sm text-gray-500">{item.description}</p>

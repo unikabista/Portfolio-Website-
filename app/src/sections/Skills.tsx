@@ -4,7 +4,7 @@ const skillCategories = [
   {
     icon: Brain,
     title: 'AI & Machine Learning',
-    color: 'from-violet-500 to-purple-500',
+    color: 'from-blue-500 to-cyan-500',
     skills: ['Python', 'PyTorch', 'TensorFlow', 'scikit-learn', 'Computer Vision', 'LLMs', 'NLP', 'Deep Learning']
   },
   {
@@ -36,12 +36,12 @@ export default function Skills() {
   return (
     <section id="skills" className="section relative">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-fuchsia-950/5 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-950/5 to-transparent pointer-events-none" />
       
       <div className="container-custom relative">
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="text-violet-400 text-sm font-medium mb-4 block">My Toolkit</span>
+          <span className="text-blue-400 text-sm font-medium mb-4 block">My Toolkit</span>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Skills</h2>
           <p className="text-gray-400 max-w-xl mx-auto">
             Technologies and tools I use to bring ideas to life.

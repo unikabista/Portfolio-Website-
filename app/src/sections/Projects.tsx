@@ -37,12 +37,12 @@ export default function Projects() {
   return (
     <section id="projects" className="section relative">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-fuchsia-950/5 to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-950/5 to-transparent pointer-events-none" />
       
       <div className="container-custom relative">
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="text-violet-400 text-sm font-medium mb-4 block">Featured Work</span>
+          <span className="text-blue-400 text-sm font-medium mb-4 block">Featured Work</span>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Projects</h2>
           <p className="text-gray-400 max-w-xl mx-auto">
             A selection of projects I've worked on, from AI-powered applications to data pipelines.
@@ -69,8 +69,8 @@ export default function Projects() {
                 
                 {/* Featured badge */}
                 {project.featured && (
-                  <div className="absolute top-4 left-4 px-3 py-1 bg-violet-500/20 backdrop-blur-sm border border-violet-500/30 rounded-full">
-                    <span className="text-xs font-medium text-violet-300">Featured</span>
+                  <div className="absolute top-4 left-4 px-3 py-1 bg-blue-500/20 backdrop-blur-sm border border-blue-500/30 rounded-full">
+                    <span className="text-xs font-medium text-blue-300">Featured</span>
                   </div>
                 )}
               </div>
@@ -79,7 +79,7 @@ export default function Projects() {
               <div className="p-6">
                 <div className="flex items-start justify-between mb-3">
                   <div>
-                    <h3 className="text-xl font-semibold group-hover:text-violet-400 transition-colors">
+                    <h3 className="text-xl font-semibold group-hover:text-blue-400 transition-colors">
                       {project.title}
                     </h3>
                     <p className="text-sm text-gray-500">{project.subtitle}</p>
