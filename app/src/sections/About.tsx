@@ -3,23 +3,23 @@ import { Code2, Brain, Database, Sparkles } from 'lucide-react';
 const highlights = [
   {
     icon: Brain,
-    title: 'AI & ML',
-    description: 'Deep Learning, NLP, Computer Vision'
+    title: 'AI & ML Engineer',
+    description: 'Building intelligent systems with PyTorch, TensorFlow, and LLMs'
   },
   {
     icon: Database,
-    title: 'Data Science',
-    description: 'ETL Pipelines, Analytics, Visualization'
+    title: 'Data Engineer',
+    description: 'Designing scalable ETL pipelines processing 50GB+ daily'
   },
   {
     icon: Code2,
-    title: 'Full Stack',
-    description: 'Python, React, Node.js, SQL'
+    title: 'Full Stack Developer',
+    description: 'Crafting responsive web apps with React, Python & SQL'
   },
   {
     icon: Sparkles,
-    title: 'Problem Solver',
-    description: 'Turning complexity into simplicity'
+    title: 'Innovation Focused',
+    description: 'Transforming complex problems into elegant solutions'
   }
 ];
 
@@ -35,35 +35,42 @@ export default function About() {
           <div>
             <span className="text-blue-400 text-sm font-medium mb-4 block">About Me</span>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Building intelligent systems that make a difference
+              Turning data into intelligent solutions
             </h2>
             <div className="space-y-4 text-gray-400 leading-relaxed">
               <p>
-                I'm a Computer Science junior at the University of Louisiana at Monroe, 
-                passionate about AI, Machine Learning, and Data Science. With hands-on 
-                experience developing Python-based diagnostic tools and automated data 
-                pipelines, I've improved system accuracy by 30%.
+                I'm a Computer Science student at the University of Louisiana at Monroe, 
+                specializing in <span className="text-blue-400 font-medium">Artificial Intelligence</span>, <span className="text-blue-400 font-medium">Machine Learning</span>, and{' '}
+                <span className="text-blue-400 font-medium">Data Engineering</span>. Currently working as a Software Intern 
+                at ULM's IT Department, where I've developed diagnostic tools that analyze 500+ 
+                monthly logs and improved system accuracy by 30%.
               </p>
               <p>
-                I work across the entire stack—from training deep learning models to 
-                building modern web applications. My focus is always on creating solutions 
-                that are not just technically sound, but also practical and impactful.
+                I build end-to-end solutions—from training computer vision models and NLP systems 
+                to designing scalable data pipelines and modern web applications. My work focuses 
+                on creating AI-powered tools that solve real-world problems, whether it's helping 
+                visually impaired users navigate their environment or preventing athletic injuries 
+                through biomechanical analysis.
+              </p>
+              <p>
+                When I'm not coding, I'm exploring the latest in generative AI, contributing to 
+                open-source projects, or mentoring peers in data science and machine learning.
               </p>
             </div>
             
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 mt-10">
               <div>
-                <p className="text-3xl font-bold gradient-text">30%</p>
-                <p className="text-sm text-gray-500 mt-1">Accuracy Improvement</p>
+                <p className="text-3xl font-bold gradient-text">6+</p>
+                <p className="text-sm text-gray-500 mt-1">Projects Completed</p>
               </div>
               <div>
-                <p className="text-3xl font-bold gradient-text">500+</p>
-                <p className="text-sm text-gray-500 mt-1">Logs Processed Monthly</p>
+                <p className="text-3xl font-bold gradient-text">50GB+</p>
+                <p className="text-sm text-gray-500 mt-1">Data Processed Daily</p>
               </div>
               <div>
                 <p className="text-3xl font-bold gradient-text">40%</p>
-                <p className="text-sm text-gray-500 mt-1">Faster Resolution</p>
+                <p className="text-sm text-gray-500 mt-1">Performance Boost</p>
               </div>
             </div>
           </div>

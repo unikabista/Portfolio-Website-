@@ -21,14 +21,8 @@ const contactLinks = [
     value: 'linkedin.com/in/unikabista',
     href: 'https://linkedin.com',
     color: 'from-blue-500 to-blue-600'
-  },
-  {
-    icon: FileText,
-    label: 'Resume',
-    value: 'Download CV',
-    href: '#',
-    color: 'from-emerald-500 to-teal-500'
   }
+ 
 ];
 
 export default function Contact() {
